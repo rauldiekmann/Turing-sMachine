@@ -5,9 +5,10 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 0;
+    
 }
 
 nav {
@@ -29,16 +30,44 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
+
+.logo {
+    margin-left: 10px;
+    height: 90px;
+    width: 350px;
+}
+
+.header-links{
+    margin-right: 50px;
+    font-size: larger;
+}
+
+
 
 .destacado {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
-    background-image: url(assets/BG.jpg)
+    background-image: url(assets/BG.jpg);
+    color: white;
 }
+.imagen{
+    margin-left: 20px;
+}
+
+.app-image{
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra en la parte baja */
+    max-width: 100%; /* Tamaño máximo del 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Evita espacios en blanco no deseados debajo de la imagen */
+    
+}
+
+
 
 .destacado .texto {
     flex: 1;
@@ -52,27 +81,118 @@ nav a {
     background-color: #f7f7f7;
     padding: 40px;
     text-align: center;
+    align-items: center;
+}
+
+.prueba-social-proof .companies-img {
+    display: block;
+    margin: 0 auto;
 }
 
 .prueba-social-proof .logos {
     margin-top: 20px;
 }
 
-.dos-cajas {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+.servicios{
     text-align: center;
+    background-color:#D0D0D0 ;
 }
 
-.dos-cajas .caja {
-    display: inline-block;
-    margin: 20px;
+.servicios h1 {
+    padding-top: 50px;
 }
+
+.dos-cajas {
+    display: flex;
+  flex-direction:row;
+  align-items: flex-start; /* Center align content horizontally */
+  padding: 20px;
+}
+
+.caja {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.caja h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .caja p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  
+  .caja button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Optional: Add some hover effects to the button */
+  .caja button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between elements */
+  }
+  
+  footer img {
+    width: 200px; /* Set the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Center-align the image with text */
+  }
+
+/* Estilo base para el botón */
+.header-button {
+    margin-top: 10px;
+    padding: 10px 20px; /* Doble de margen a los lados que arriba y abajo */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    color: #000000; /* Texto negro */
+    text-decoration: none; /* Elimina la subrayado predeterminado en enlaces */
+    display: inline-block; /* Para que el botón se comporte como un elemento en línea */
+    text-align: center; /* Centra el texto horizontalmente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición suave */
+    border: none;
+  }
+  
+  /* Cambia el color de fondo y el texto al pasar el mouse sobre el botón */
+  
+  
+.companies-img{
+    max-width: 100%; /* Tamaño máximo del 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Evita espacios en blanco no deseados debajo de la imagen */
 }
