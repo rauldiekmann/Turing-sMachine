@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Turings Machine</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo de la empresa" class="logo">
+            </div>
+            <ul class="header-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="fondo-contactos">
+        <form action="">
+
+            <div class="formulario-contactos">
+
+                <div class="nombres">
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label for="nombre">Nombre: </label>
+                        </legend>
+                        <input type="text" name="nombre" id="nombre" required class="caja-texto-contactos">
+                    </fieldset>
+
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label for="nombreEmpresa">Nombre de empresa: </label>
+                        </legend>
+                        <input type="text" name="nombreEmpresa" id="nombreEmpresa" required
+                            class="caja-texto-contactos">
+                    </fieldset>
+                </div>
+
+                <div class="email">
+
+                    <fieldset class="caja-contactos-email">
+                        <legend>
+                            <label for="email">Email: </label>
+                        </legend>
+                        <input type="text" name="email" id="email" required class="caja-texto-contactos">
+                    </fieldset>
+
+                </div>
+
+                <div class="numYPais">
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label for="numContacto">Número de contacto: </label>
+                        </legend>
+                        <input type="text" name="numContacto" id="numContacto" required class="caja-texto-contactos">
+                    </fieldset>
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label for="pais">Pais: </label>
+                        </legend>
+                        <input type="text" name="pais" id="pais" required class="caja-texto-contactos">
+                    </fieldset>
+                </div>
+
+                <div class="motivoDeConsulta">
+                    <fieldset class="caja-contactos-email">
+                        <legend>
+                            <label for="motivoConsulta">Motivo de su consulta: </label>
+                        </legend>
+                        <select name="motivoConsulta" id="motivoConsulta" required class="caja-texto-contactos">
+                            <option value="" selected hidden></option>
+                            <option value="ver">Ver ejemplos</option>
+                            <option value="contratar">Contratarnos para un proyecto</option>
+                            <option value="otros">Consultar más opciones</option>
+                        </select>
+                    </fieldset>
+                </div>
+
+                <div class="comentarioArea">
+                    <textarea name="comentario" id="comentario" cols="78" rows="4" style="resize: none;"></textarea>
+                </div>
+
+                <div class="certificadoIdioma">
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label>Idioma: </label>
+                        </legend>
+                        <input type="radio" name="idioma" id="espanol">
+                        <label for="espanol">Español</label>
+                        <input type="radio" name="idioma" id="ingles">
+                        <label for="ingles">Inglés</label>
+                    </fieldset>
+
+                    <fieldset class="caja-contactos">
+                        <legend>
+                            <label for="certificadoRegistro">Certificado de registro: </label>
+                        </legend>
+                        <input type="file" name="certificadoRegistro" id="certificadoRegistro" required>
+                    </fieldset>
+                </div>
+                </select><br><br>
+                <div class="caja"> <button type="submit" id="submit" name="submit">Enviar</button></div>
+
+            </div>
+
+
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home </a>
+            <img src="assets/logo-inverted.png" alt="Image">
+            <a href="#">Contacto</a>
+
+        </div>
+        <p>2033 Turing's Machine© Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

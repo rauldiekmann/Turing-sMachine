@@ -83,6 +83,46 @@ nav a {
     text-align: center;
     align-items: center;
 }
+.fondo-contactos {
+    background-color: #f7f7f7;
+    padding: 40px;
+
+}
+.formulario-contactos{
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    border-width: 0cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.caja-contactos{
+    border: 5px #000000 solid;
+    height: 40px;
+    width: 260px;
+    border-radius: 8px;
+}
+.caja-contactos-email{
+    border: 5px #000000 solid;
+    height: 40px;
+    width: 560px;
+    border-radius: 8px;
+}
+.caja-texto-contactos{
+    width: 100%;
+    border-width: 0px;
+}
+.nombres, .email, .numYPais, .motivoDeConsulta,  .certificadoIdioma {
+    display: flex;
+    flex-direction: row;
+}
+.comentarioArea{
+    display: flex;
+    flex-direction: row;
+    resize: none;
+}
 
 .prueba-social-proof .companies-img {
     display: block;
@@ -129,6 +169,7 @@ nav a {
     margin-bottom: 10px;
     flex-grow: 1;
   }
+  
   
   .caja button {
     background-color: black;
